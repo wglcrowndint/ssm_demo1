@@ -1,6 +1,6 @@
 package cn.itcast.controller;
-public class UserController {
 
+public class UserController {
 
     public void add() {
 
@@ -12,6 +12,14 @@ public class UserController {
 
 
         System.out.println("update");
+    }
+
+    public void findAll() {
+
+
+
+
+
     }
 
 
