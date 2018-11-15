@@ -13,6 +13,8 @@ import java.util.List;
  */
 public interface AccountDao {
 
+    public void update(Account account);
+
     // 查询所有账户
     @Select("select * from account")
     public List<Account> findAll();
