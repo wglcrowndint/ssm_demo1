@@ -25,7 +25,15 @@ public class AccountController {
     @Autowired
     private AccountService accountService;
 
+    @RequestMapping("findById")
+    public Account findById(int id){
 
+        System.out.println("表现层：查询所有账户...");
+
+        System.out.println("表现层：查询所有账户...");
+
+        return null;
+    }
 
     @RequestMapping("findAll")
     public String findAll(Model model){
